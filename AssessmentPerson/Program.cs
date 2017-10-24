@@ -26,10 +26,11 @@ namespace AssessmentPerson
             Console.WriteLine("How much do you weigh:");
             float weight = float.Parse(Console.ReadLine());
 
+            Person addPerson = new Person();
             PersonHandler newPerson1 = new PersonHandler();
-            Person p = newPerson1.CreatePerson(intAge, sName, lName, height, weight);
+            addPerson = newPerson1.CreatePerson(intAge, sName, lName, height, weight);
 
-            Console.WriteLine(newPerson1.PrintPerson(p));
+            Console.WriteLine(newPerson1.PrintPerson(addPerson));
             Console.ReadLine();
 
 

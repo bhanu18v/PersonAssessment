@@ -27,9 +27,9 @@ namespace AssessmentPerson
             return  person1;
         }
 
-        public string PrintPerson(Person p)
+        public string PrintPerson(Person addPerson)
         {
-            return "fName=  " + p.Fname + ", lName=  " + p.Lname + ", Age = " + p.Age + ", Weight=  " + p.Weight + ", Height=  " + p.Height;
+            return "fName=  " + addPerson.Fname + ", lName=  " + addPerson.Lname + ", Age = " + addPerson.Age + ", Weight=  " + addPerson.Weight + ", Height=  " + addPerson.Height;
         }
     }
 }

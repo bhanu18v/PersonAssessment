@@ -10,36 +10,58 @@ namespace AssessmentPerson
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hi");
 
-            // var e1 = new Employee("Jane");
-            //e1.Salary = 25000;
-            //var e2 = new Employee("Anne");
-            //e2.Salary = 23000;
+            Console.WriteLine("Enter your First Name:");
+            string sName = Console.ReadLine();
+            Console.WriteLine("Enter your Last Name:");
+            string lName = Console.ReadLine();
 
-            //var person = new Person();
-            //person.age = 22;
-            //Console.WriteLine("Person Details are - {0}" , person);
+            Console.WriteLine("FullName:" + " " + sName + " " + lName);
+
+            Console.WriteLine("Enter your age:");
+            int intAge = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("How tall are you:");
+            float height = float.Parse(Console.ReadLine());
+            Console.WriteLine("How much do you weigh:");
+            float weight = float.Parse(Console.ReadLine());
+
+            PersonHandler newPerson1 = new PersonHandler();
+            Person p = newPerson1.CreatePerson(intAge, sName, lName, height, weight);
+
+            Console.WriteLine(newPerson1.PrintPerson(p));
+            Console.ReadLine();
+
+
+            //Console.WriteLine("enter your deatils");
+            //Console.WriteLine("your first name: ");
+        
+            //Person person = new Person();
+
+
+            //Console.WriteLine("FirstName: ");
+            //var fname = Console.ReadLine();
+            //person.Fname = fname;
+            //Console.WriteLine("LastName: ");
+            //var lname = Console.ReadLine();
+            //person.Lname = lname;
+            //Console.WriteLine("age: ");
+            //var age = int.Parse(Console.ReadLine());
+            //person.Age = age;
+            //Console.WriteLine("Weight: ");
+            //var weight = float.Parse(Console.ReadLine());
+            //person.Weight = weight;
+            //Console.WriteLine("Height: ");
+            //var height = float.Parse(Console.ReadLine());
+            //person.Height = height;
+            //Console.WriteLine("printing the values"+person);
             //Console.ReadLine();
 
-            Person person = new Person();
+        }
 
-            // Print out the name and the age associated with the person:
-            Console.WriteLine("Person details - {0}", person);
-
-            // Set some values on the person object:
-            person.Name = "Joe";
-            person.Age = 99;
-            Console.WriteLine("Person details - {0}", person);
-
-            // Increment the Age property:
-            person.Age += 1;
-            Console.WriteLine("Person details - {0}", person);
-
-            // Keep the console window open in debug mode.
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
 
         }
     }
-}
+
+
+

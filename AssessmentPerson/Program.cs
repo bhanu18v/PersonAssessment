@@ -21,9 +21,11 @@ namespace AssessmentPerson
             Console.WriteLine("Hi"+" "+person1.Fname + " "+person1.Lname);
 
             Console.WriteLine("Enter your age:");
+            int intAge = int.Parse(Console.ReadLine());
+
             Person pAge = new Person();
             PersonHandler newage = new PersonHandler();
-            newage.SetAge(pAge, 25);
+            newage.SetAge(pAge, intAge);
             Console.WriteLine(pAge.Age);
             //string sAge = Console.ReadLine();
             //int iAge = person1.Age;

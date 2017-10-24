@@ -12,9 +12,17 @@ namespace AssessmentPerson
         {
             pers.Age = age;
         }
-        public Person CreatePerson (int iAge, string fName,string lName, float Height, float Weight)
+        public Person CreatePerson(int iAge, string fName, string lName, float Height, float Weight)
         {
-            return;
+            Person OnePer = new Person();
+            OnePer.Age = iAge;
+            OnePer.Fname = fName;
+            OnePer.Lname = lName;
+            OnePer.Height = Height;
+            OnePer.Weight = Weight;
+
+            return OnePer;
+
         }
     }
    

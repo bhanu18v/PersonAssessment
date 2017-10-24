@@ -8,8 +8,9 @@ namespace AssessmentPerson
 {
     class PersonHandler
     {
-        public void SetAge (Person pers, int age)
+        public void SetAge(Person pers, int age)
         {
+            //old method used in the start of the project.
             //pers.Age = age;
         }
         public Person CreatePerson(int iAge, string fName, string lName, float Height, float Weight)
@@ -20,11 +21,7 @@ namespace AssessmentPerson
             OnePer.Lname = lName;
             OnePer.Height = Height;
             OnePer.Weight = Weight;
-
             return OnePer;
-
         }
     }
-   
-    
 }

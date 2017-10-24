@@ -17,7 +17,7 @@ namespace AssessmentPerson
             Console.WriteLine("Enter your Last Name:");
             string lName = Console.ReadLine();
 
-            Console.WriteLine("Hi" + " " + sName + " " + lName);
+       
 
             Console.WriteLine("Enter your age:");
             int intAge = int.Parse(Console.ReadLine());
@@ -25,10 +25,18 @@ namespace AssessmentPerson
             Console.WriteLine("How tall are you:");
             float height =float.Parse(Console.ReadLine());
             Console.WriteLine("How much do you weigh:");
-            float weight = float.Parse(Console.ReadLine());
+            float weight = float.Parse(Console.ReadLine() + "\n");
 
             PersonHandler newPerson1 = new PersonHandler();
             newPerson1.CreatePerson(intAge, sName, lName, height, weight);
+
+
+           
+            Console.Write("Hi" + " " + sName + " " + lName + "\n");
+            Console.Write("Your age is" + intAge);
+            Console.ReadLine();
+
+
             //Person person1 = new Person();
             
             //person1.Fname= Console.ReadLine();

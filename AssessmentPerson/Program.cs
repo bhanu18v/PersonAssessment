@@ -10,6 +10,7 @@ namespace AssessmentPerson
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hi");
         }
     }
 }

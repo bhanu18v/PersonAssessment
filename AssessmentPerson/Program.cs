@@ -11,22 +11,38 @@ namespace AssessmentPerson
         static void Main(string[] args)
         {
 
-            Person person1 = new Person();
+            
             Console.WriteLine("Enter your First Name:");
-            person1.Fname= Console.ReadLine();
-
+            string sName = Console.ReadLine();
             Console.WriteLine("Enter your Last Name:");
-            person1.Lname = Console.ReadLine();
+            string lName = Console.ReadLine();
 
-            Console.WriteLine("Hi"+" "+person1.Fname + " "+person1.Lname);
+            Console.WriteLine("Hi" + " " + sName + " " + lName);
 
             Console.WriteLine("Enter your age:");
             int intAge = int.Parse(Console.ReadLine());
 
-            Person pAge = new Person();
-            PersonHandler newage = new PersonHandler();
-            newage.SetAge(pAge, intAge);
-            Console.WriteLine(pAge.Age);
+            Console.WriteLine("How tall are you:");
+            float height =float.Parse(Console.ReadLine());
+            Console.WriteLine("How much do you weigh:");
+            float weight = float.Parse(Console.ReadLine());
+
+            PersonHandler newPerson1 = new PersonHandler();
+            newPerson1.CreatePerson(intAge, sName, lName, height, weight);
+            //Person person1 = new Person();
+            
+            //person1.Fname= Console.ReadLine();
+
+            
+            //person1.Lname = Console.ReadLine();
+
+            
+
+
+            //Person pAge = new Person();
+            //PersonHandler newage = new PersonHandler();
+            //newage.CreatePerson(intAge,);
+            //Console.WriteLine(pAge.Age);
             //string sAge = Console.ReadLine();
             //int iAge = person1.Age;
             //if(!int.TryParse(sAge, out iAge))
@@ -34,11 +50,11 @@ namespace AssessmentPerson
             //    Console.WriteLine("Invalid Age");
             //}
 
-            Console.WriteLine("How tall are you:");
-            person1.Height =float.Parse( Console.ReadLine());
+            
+            //person1.Height =float.Parse( Console.ReadLine());
 
-            Console.WriteLine("How much do you weigh:");
-            person1.Weight = float.Parse(Console.ReadLine());
+           
+            //person1.Weight = float.Parse(Console.ReadLine());
 
 
            

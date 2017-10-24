@@ -10,7 +10,7 @@ namespace AssessmentPerson
     {
         public void SetAge (Person pers, int age)
         {
-            pers.Age = age;
+            //pers.Age = age;
         }
         public Person CreatePerson(int iAge, string fName, string lName, float Height, float Weight)
         {

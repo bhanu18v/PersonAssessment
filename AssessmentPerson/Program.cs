@@ -25,9 +25,8 @@ namespace AssessmentPerson
             PersonHandler newPerson1 = new PersonHandler();
             AddPrson = newPerson1.CreatePerson(intAge, sName, lName, height, weight);
 
-
             //Printing the output
-
+             
             Console.WriteLine("=================================================================");
 
             Console.Write("Hi" + " " + sName + " " + lName + "\n");

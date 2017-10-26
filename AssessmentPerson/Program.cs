@@ -35,24 +35,12 @@ namespace AssessmentPerson
             Console.Write("Your Weight is : " + weight + "\n");
             Console.Write("Your Height is  : " + height + "\n");
 
+
+
+            Horse horse = new Horse("bhanu", 80, 22, 12);
+            Console.WriteLine(" printing race "+ horse.Stats());
             Console.ReadLine();
 
-            //OLD CODE
-            //Person person1 = new Person();
-            //person1.Fname= Console.ReadLine();
-            //person1.Lname = Console.ReadLine();
-            //Person pAge = new Person();
-            //PersonHandler newage = new PersonHandler();
-            //newage.CreatePerson(intAge,);
-            //Console.WriteLine(pAge.Age);
-            //string sAge = Console.ReadLine();
-            //int iAge = person1.Age;
-            //if(!int.TryParse(sAge, out iAge))
-            //{
-            //    Console.WriteLine("Invalid Age");
-            //}
-            //person1.Height =float.Parse( Console.ReadLine());
-            //person1.Weight = float.Parse(Console.ReadLine());
         }
     }
 }

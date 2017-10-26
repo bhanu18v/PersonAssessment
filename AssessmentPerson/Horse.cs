@@ -24,5 +24,12 @@ namespace AssessmentPerson
         {
                   Height = height;
          }
+        public override string Stats()
+        {
+            return base.Stats()+" "+"height: "+ height;
+        }
+
+
+
     }
 }

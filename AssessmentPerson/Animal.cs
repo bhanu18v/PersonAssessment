@@ -29,6 +29,12 @@ namespace AssessmentPerson
             Age = age;
 
         }
+        public virtual string Stats()
+        {
+            return "Name: " + name + "," + "Weight:" + weigth + "," + "Age:" + age;
+        }
+
+
     }
    
 }

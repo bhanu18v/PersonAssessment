@@ -36,6 +36,12 @@ namespace AssessmentPerson
 
             Console.ReadLine();
 
+            Horse horse = new Horse("bhanu", 80, 22, 12);
+            Console.WriteLine(" printing race " + horse.Stats());
+            Console.ReadLine();
+
+            List < string > iList= new List<string>();
+
             //OLD CODE
             //Person person1 = new Person();
             //person1.Fname= Console.ReadLine();

@@ -40,7 +40,7 @@ namespace AssessmentPerson
             //Horse horse = new Horse("bhanu", 80, 22, 12);
             //Console.WriteLine(" printing race "+ horse.Stats());
             //Console.ReadLine();
-
+/***********Creating Animal List *************/
             List<Animal> animals = new List<Animal>();
             Horse horse1 = new Horse("Horse",20,22,12);
             Dog dog1 = new Dog("Dog",11,2,"brown color dog");
@@ -58,6 +58,13 @@ namespace AssessmentPerson
                 
             }
             Console.ReadLine();
+            /*******Creating Dog List******************/
+            //List<Dog> dog = new List<Dog>();
+            //Horse horse2 = new Horse();
+            //dog.Add(horse2);It will throw error...
+
+            List<Animal> animalsobj = new List<Animal>();
+
 
 
 

@@ -8,28 +8,21 @@ namespace AssessmentPerson
 {
     class PersonHandler
     {
-
-        public void setAge(Person pers,int age)
+        public void SetAge(Person pers, int age)
         {
-            pers.Age = age;
+            //old method used in the start of the project.
+            //pers.Age = age;
+        }
+        public Person CreatePerson(int iAge, string fName, string lName, float Height, float Weight)
+        {
+            Person OnePer = new Person();
+            OnePer.Age = iAge;
+            OnePer.Fname = fName;
+            OnePer.Lname = lName;
+            OnePer.Height = Height;
+            OnePer.Weight = Weight;
+            return OnePer;
         }
 
-        public Person CreatePerson(int age,string fname,string lname,float height,float weight)
-        {
-            Person person1 = new Person();
-            person1.Age = age;
-            person1.Fname = fname;
-            person1.Lname = lname;
-            person1.Height = height;
-            person1.Weight = weight;
-            
-            
-            return  person1;
-        }
-
-        public string PrintPerson(Person addPerson)
-        {
-            return "fName=  " + addPerson.Fname + ", lName=  " + addPerson.Lname + ", Age = " + addPerson.Age + ", Weight=  " + addPerson.Weight + ", Height=  " + addPerson.Height;
-        }
     }
 }

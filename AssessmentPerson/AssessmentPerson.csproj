@@ -43,10 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalsInheritance.cs" />
+    <Compile Include="BirdSubClass.cs" />
+    <Compile Include="DogSubClass.cs" />
+    <Compile Include="Flamingo.cs" />
+    <Compile Include="HedgehogSubClass.cs" />
+    <Compile Include="HorseSubClass.cs" />
+    <Compile Include="MainClassforInheritance.cs" />
+    <Compile Include="Pelican.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Swan.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

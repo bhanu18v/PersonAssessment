@@ -34,6 +34,12 @@ namespace AssessmentPerson
             return "Name : " + name + "," + " Weight :" + weigth + "," + " Age : " + age + ",";
         }
 
+        public virtual string Speak()
+        {
+
+            return "What does your dog say - ";
+
+        }
     }
 
 }

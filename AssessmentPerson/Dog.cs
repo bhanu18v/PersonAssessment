@@ -25,5 +25,11 @@ namespace AssessmentPerson
         {
             Color = color;
         }
+
+        public override string Speak()
+        {
+            return "woff";
+
+        }
     }
 }

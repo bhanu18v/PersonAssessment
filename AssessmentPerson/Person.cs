@@ -9,7 +9,7 @@ namespace AssessmentPerson
     public class Person
     {
         private string fname;
-        private string lname;
+        private string lname; 
         private int age;
         private float height;
         private float weight;

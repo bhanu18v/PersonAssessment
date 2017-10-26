@@ -27,6 +27,10 @@ namespace AssessmentPerson
             Strength = strength;
 
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + "Strength: " + strength;
+        }
 
     }
 }

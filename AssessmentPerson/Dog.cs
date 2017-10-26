@@ -25,5 +25,10 @@ namespace AssessmentPerson
         {
             Color = color;
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + "Color: " + color;
+        }
+
     }
 }

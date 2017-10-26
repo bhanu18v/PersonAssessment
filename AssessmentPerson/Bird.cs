@@ -26,6 +26,10 @@ namespace AssessmentPerson
         {
             WingWidth = wingwidth;
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + "Wingwidth: " + wingwidth;
+        }
 
     }
 }

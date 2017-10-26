@@ -25,9 +25,8 @@ namespace AssessmentPerson
             PersonHandler newPerson1 = new PersonHandler();
             AddPrson = newPerson1.CreatePerson(intAge, sName, lName, height, weight);
 
-
             //Printing the output
-
+             
             Console.WriteLine("=================================================================");
 
             Console.Write("Hi" + " " + sName + " " + lName + "\n");
@@ -36,6 +35,12 @@ namespace AssessmentPerson
             Console.Write("Your Height is  : " + height + "\n");
 
             Console.ReadLine();
+
+            Horse horse = new Horse("bhanu", 80, 22, 12);
+            Console.WriteLine(" printing race " + horse.Stats());
+            Console.ReadLine();
+
+            List < string > iList= new List<string>();
 
             //OLD CODE
             //Person person1 = new Person();

@@ -4,3 +4,6 @@ C:\Users\User\Source\Repos\PersonAssessment\AssessmentPerson\bin\Debug\Assessmen
 C:\Users\User\Source\Repos\PersonAssessment\AssessmentPerson\obj\Debug\AssessmentPerson.csprojResolveAssemblyReference.cache
 C:\Users\User\Source\Repos\PersonAssessment\AssessmentPerson\obj\Debug\AssessmentPerson.exe
 C:\Users\User\Source\Repos\PersonAssessment\AssessmentPerson\obj\Debug\AssessmentPerson.pdb
+C:\Users\User\documents\visual studio 2015\Projects\AssessmentPerson\AssessmentPerson\bin\Debug\AssessmentPerson.exe.config
+C:\Users\User\documents\visual studio 2015\Projects\AssessmentPerson\AssessmentPerson\obj\Debug\AssessmentPerson.exe
+C:\Users\User\documents\visual studio 2015\Projects\AssessmentPerson\AssessmentPerson\obj\Debug\AssessmentPerson.pdb

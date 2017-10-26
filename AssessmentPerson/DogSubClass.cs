@@ -15,6 +15,15 @@ namespace AssessmentPerson
             get { return bark; }
             set { bark = value; }
         }
+        public DogSubClass()
+        {
 
+        }
+
+        public DogSubClass(string name, int weight, int age, string bark):base()
+        {
+            Bark = bark; 
+        }
     }
+}
 }

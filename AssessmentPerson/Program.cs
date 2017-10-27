@@ -53,7 +53,7 @@ namespace AssessmentPerson
 
             foreach (var tAnimals in animals)
             {
-                //if(animals == dog1.GetType.dog1)
+              
 
                 Console.WriteLine(tAnimals.Stats());
                 Console.ReadLine();

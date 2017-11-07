@@ -36,7 +36,7 @@ namespace AssessmentPerson
 
             //Console.ReadLine();
 
-            Horse horse = new Horse("bhanu", 80, 22, 12);
+            Horse horse = new Horse("khana", 80, 22, 12);
             Console.WriteLine(" printing race " + horse.Stats());
             Console.ReadLine();
 
